@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: #23252C;
+}
+/* Intro */
+.intro, .about, .interests, .footer {
+  max-width: 400px;
+  background-color: #1A1B21;
+  margin: 0 auto;
+}
+.intro {
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 10px 10px 0 0;
+}
+.intro-profile {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+.intro-name {
+  color: #FFFFFF;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 1em;
+}
+.intro-title {
+  color: #F3BF99;
+}
+a {
+  text-decoration: none;
+  color: #1A1B21;
+}
+.intro-site {
+  color: #F5F5F5;
+  font-size: .75rem;
+}
+.intro-email-btn {
+  color: #1A1B21;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  width: 275px;
+  height: 35px;
+  cursor: pointer;
+  font-size: .90rem;
+  margin: .5rem 0;
+}
+.intro-email-btn:hover {
+  transition: .3s ease-in-out;
+  background-color: #F3BF99;
+}
+.fa-envelope {
+  font-size: .75rem;
+  margin: 0 .5rem;
+}
+/* About and Interests */
+.about, .interests {
+  padding: .5rem 3rem;
+}
+.about-title, .interests-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #F5F5F5;
+  margin-top: 1rem;
+}
+.about-info, .interests-info {
+  font-size: .8rem;
+  color: #DCDCDC;
+  line-height: 24px;
+}
+.interests-info {
+  margin-bottom: 2rem;
+}
+/* Footer */
+.footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  border-radius: 0 0 10px 10px;
+}
+.fa-brands {
+  font-size: 2rem;
+  margin: 1rem;
+  color: #918E9B;
+  cursor: pointer;
+}
+.fa-brands:hover {
+  transition: .3s ease-in-out;
+  color: #F5F5F5;
+}
